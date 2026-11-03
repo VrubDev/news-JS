@@ -2,7 +2,6 @@ import type { Article } from './article';
 import './news.css';
 
 class News {
-
     draw(data: Article[]) {
         const news = data.length >= 10 ? data.filter((_item, idx) => idx < 10) : data;
 

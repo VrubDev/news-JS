@@ -1,8 +1,8 @@
 export interface Article {
-    urlToImage: string;
-    author: string;
-    publishedAt: any;
-    description: any;
+    urlToImage: string | null;
+    author: string | null;
+    publishedAt: string;
+    description: string | null;
     title: string;
     url: string;
     source: {
